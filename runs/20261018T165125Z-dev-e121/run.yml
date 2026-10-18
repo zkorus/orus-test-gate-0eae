@@ -5,7 +5,16 @@ role: dev
 item: "#1"
 machine: m-5dd91c71
 attempt: 1
-state: running
+state: stopped
 resumes: null
 started: 2026-10-18T16:51:25Z
 role_commit: 7b220a7ecebb5ee287f8653de9a984d103dbfdb3
+gate:
+  - kind: gate
+    exit: 0
+    seconds: 0.2
+    bytes: 145
+    isolation: none
+ended: 2026-10-18T16:52:05Z
+reason: "the run failed: gh pr create --repo zkorus/orus-test-gate-0eae --head orus/dev/1-add-subtracts --base main --title [agent:dev] Fix add to sum its arguments instead of subtracting --body-file - --label"
+cause: host
