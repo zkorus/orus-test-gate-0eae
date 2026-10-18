@@ -1,0 +1,11 @@
+v: 0
+run: 20261018T165125Z-dev-e121
+repo: zkorus/orus-test-gate-0eae
+role: dev
+item: "#1"
+machine: m-5dd91c71
+attempt: 1
+state: running
+resumes: null
+started: 2026-10-18T16:51:25Z
+role_commit: 7b220a7ecebb5ee287f8653de9a984d103dbfdb3
